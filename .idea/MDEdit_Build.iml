@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/MDEdit_App/python" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MDEdit_App/python/DLLs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MDEdit_App/python/Lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MDEdit_App/python/Lib/site-packages" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="D:\MDEdit_Build\MDEdit_App\python\python.exe" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings" />
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+  </component>
+  <component name="ReSTService" />
+  <component name="TestRunnerService" />
+</module>
