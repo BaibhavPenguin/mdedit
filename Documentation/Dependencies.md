@@ -14,6 +14,7 @@ Dependencies as of 16th November 2026.
 - Markdown
 - tklinenums
 - tkinterweb
+- pywinstyles
 
 ---
 ## Notes
