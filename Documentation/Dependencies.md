@@ -9,7 +9,6 @@ Dependencies as of 16th November 2026.
 - CTkCodeBox
 - CTkMessageBox
 - CTkListBox
-- CTkMenuBar
 - CTkToolTip
 - Markdown
 - tklinenums
@@ -22,3 +21,4 @@ Dependencies as of 16th November 2026.
 - InnoSetup is required to build the setup file.
 - Project must be bundled using <kbd>--onedir</kbd> flag on pyinstaller.  
 - Themes and MDEdit Themes will be built separately.
+- CTkMenuBr removed from dependency tree, implemented a custom menubar widget

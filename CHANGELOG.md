@@ -9,4 +9,10 @@ All Notabe chaanges to MDEdit are listed here.
 - Version Control integration
 
 ---
+### 17/11/26 &mdash; Baibhav Bhattacharya
+
+- Added Asset Structure
+- Added MVC-like structure
+- Removed CTkMenuBar Dependency
+
 

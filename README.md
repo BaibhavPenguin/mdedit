@@ -28,6 +28,5 @@ The addons listed below are used with/without modifications in **MDEdit**.
 
 [CTkMessageBox](https://github.com/Akascape/CTkMessagebox)  
 [CTkToolTip](https://github.com/Akascape/CTkToolTip)  
-[CTkCodeBox](https://github.com/Akascape/CTkCodeBox)  
-[CTkMenuBar](https://github.com/Akascape/CTkMenuBar)  
+[CTkCodeBox](https://github.com/Akascape/CTkCodeBox)
 [CTkListBox](https://github.com/Akascape/CTkListbox)
