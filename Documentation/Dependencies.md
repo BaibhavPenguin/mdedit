@@ -1,19 +1,17 @@
 # MDEdit Dependency List
 Dependencies as of 16th November 2026.  
-- Python 3.14.0 
-- Pyinstaller
-- Pygments
-- Pillow 
-- WeasyPrint
-- customTkinter
-- CTkCodeBox
-- CTkMessageBox
-- CTkListBox
-- CTkToolTip
-- Markdown
-- tklinenums
-- tkinterweb
-- pywinstyles
+- `Python 3.14.0`
+- `Pyinstaller`
+- `Pillow` 
+- `WeasyPrint`
+- `customTkinter`
+- `CTkCodeBox` &mdash; *Significantly Modified*
+- `CTkMessageBox`
+- `CTkListBox`
+- `Markdown`
+- `tklinenums`
+- `tkinterweb`
+
 
 ---
 ## Notes
@@ -21,4 +19,7 @@ Dependencies as of 16th November 2026.
 - InnoSetup is required to build the setup file.
 - Project must be bundled using <kbd>--onedir</kbd> flag on pyinstaller.  
 - Themes and MDEdit Themes will be built separately.
-- CTkMenuBr removed from dependency tree, implemented a custom menubar widget
+- `CTkMenuBar` removed from dependency tree, implemented a custom menubar widget.
+- `pywinstyles` removed from dependency tree, it was unused anyways.
+
+- Dropped `pygments` and `CTkToolTip`

@@ -1,4 +1,4 @@
-# MDEEdit Changelog
+# MDEdit Changelog
 All Notabe chaanges to MDEdit are listed here.
 
 ---
@@ -13,6 +13,12 @@ All Notabe chaanges to MDEdit are listed here.
 
 - Added Asset Structure
 - Added MVC-like structure
-- Removed CTkMenuBar Dependency
+- Removed `CTkMenuBar` Dependency
 
+---
+### 20/11/26 &mdash; Baibhav Bhattacharya
 
+- Added Custom `Menubar` and `MenubarItem` class
+- Added Other widgets
+- Added Appearance/Mode switch
+- Added Code Editor
