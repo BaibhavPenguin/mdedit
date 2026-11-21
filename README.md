@@ -1,12 +1,11 @@
-> [!CAUTION]
-> **MDEdit** is migrating to `PySide6` , the source available in the `main` branch is broken and partially implemented. It is recommended to view the `migrate` branch to see the latest source.  
-> Any dependency `customtkinter` , `cutom2kinter` and `tkinterweb` will be removed in the refactored version. Distribution and Installation Instructions will remain the same.  The `migrate` branch will be merged once the application achieves comparable functionality to the current imlementation.
+> [!WARNING]
+> **MDEdit** is migrating to `PySide6` , this branch contains the latest source temporarily, any releases will be published on `main` 
 
 # MDEdit 
 **MDEdit** is a lightweight desktop application for editing markdown files and exporting them as pdf
 or html.  
-MDEdit is built using python and customTkinter, it is one of my first gui projects.  
-I plan to add regular updates to the application with new styles and themes soon.  
+MDEdit was initially built using `customtkinter` however, due to limited Html and CSS support and overall limitations of `tkinter`, it has been rewritten using `PySide6`.  
+
 
 ## References
 [Changelog](CHANGELOG.md)  
@@ -23,6 +22,8 @@ I plan to add regular updates to the application with new styles and themes soon
 - 4GB of system memory (8GB Recommended)
 - 1GB of free hard disk space
 
+
 ## Credits & Licensing
 **MDEdit** is licensed under **GPLv3** and is free & open source for anybody to use and modify under the GPLv3 License terms.  
 Developed by Baibhav Bhattacharya, MDEdit Copyright 2026.
+
