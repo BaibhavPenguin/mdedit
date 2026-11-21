@@ -10,11 +10,11 @@ app_handler.py - Handler functions for all ui elements
 import customtkinter as ctk
 class AppHandler:
 
-    def __init__(self):
-       pass
+    def __init__(self,app):
+       self.app = app
 
-    @staticmethod
-    def update_style(style):
+
+    def update_style(self,style):
         if style == "dark":
             ctk.set_appearance_mode("dark")
         else:

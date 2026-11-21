@@ -12,12 +12,17 @@ from ui.app_handler import AppHandler
 from ui.menubar import AppMenubar
 from ui.misc import AppVerticalDivider, AppSidebar, AppNavbar
 from ui.editor import MarkdownEditor
+from ui.render_pane import TkWebRender
+
 
 
 class AppUi(ctk.CTk):
     def __init__(self):
         # Initialize Base Class
         super().__init__()
+
+        # Handler
+        self.handler = AppHandler(self)
 
         # Asset manager
         AppAssets.load_assets()
@@ -29,11 +34,8 @@ class AppUi(ctk.CTk):
         self.right_sidebar = AppSidebar(self)
         self.navbar = AppNavbar(self)
         self.mdedit = MarkdownEditor(self)
+        self.preview = TkWebRender(self)
 
-
-
-        # Handler
-        self.handler = AppHandler()
 
         # Initialization
         self._initialize_window()
@@ -64,11 +66,11 @@ class AppUi(ctk.CTk):
     def _set_widget_grids(self):
         self.menubar.grid(column=0, row=0, columnspan=5, sticky="new")
 
-        self.vdiv1.grid(column=2, row=1, rowspan=2, sticky="ns", pady=5, padx=5)
+        self.vdiv1.grid(column=2, row=1, rowspan=2, sticky="ns", pady=5, padx=2)
         self.mdedit.grid(column=1, row=1, sticky="nsew",padx=5,pady=5)
-
+        self.preview.grid(column=3, row=1, sticky="nsew",padx=0,pady=5)
         self.left_sidebar.grid(column=0, row=1, sticky="nsw",rowspan=3)
-        self.right_sidebar.grid(column=4, row=1, sticky="nse",rowspan=3)
+        self.right_sidebar.grid(column=4, row=1, sticky="nse",rowspan=3,padx=(5,0))
         self.navbar.grid(column=0, row=3, sticky="nsew",columnspan=5)
 
 
@@ -80,6 +82,8 @@ class AppUi(ctk.CTk):
 
     def _set_styles(self):
        ctk.set_appearance_mode("system")
+
+
 
 
 

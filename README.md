@@ -1,3 +1,7 @@
+> [!CAUTION]
+> **MDEdit** is migrating to `PySide6` , the source available in the `main` branch is broken and partially implemented. It is recommended to view the `migrate` branch to see the latest source.  
+> Any dependency `customtkinter` , `cutom2kinter` and `tkinterweb` will be removed in the refactored version. Distribution and Installation Instructions will remain the same.  The `migrate` branch will be merged once the application achieves comparable functionality to the current imlementation.
+
 # MDEdit 
 **MDEdit** is a lightweight desktop application for editing markdown files and exporting them as pdf
 or html.  
@@ -22,11 +26,3 @@ I plan to add regular updates to the application with new styles and themes soon
 ## Credits & Licensing
 **MDEdit** is licensed under **GPLv3** and is free & open source for anybody to use and modify under the GPLv3 License terms.  
 Developed by Baibhav Bhattacharya, MDEdit Copyright 2026.
-
-### Links
-The addons listed below are used with/without modifications in **MDEdit**.  
-
-[CTkMessageBox](https://github.com/Akascape/CTkMessagebox)  
-[CTkToolTip](https://github.com/Akascape/CTkToolTip)  
-[CTkCodeBox](https://github.com/Akascape/CTkCodeBox)
-[CTkListBox](https://github.com/Akascape/CTkListbox)

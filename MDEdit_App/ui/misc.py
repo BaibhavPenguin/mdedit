@@ -11,6 +11,7 @@ class Palette:
     title_text = ("#1A1A1A", "#EBEBEB")
     code = "#6E7781"
     menu_hover = ("#2E2E2E", "#C4C4C4")
+    highlighted_frames = ("#cfcfcf","#1f1f1f")
 
 
 
@@ -55,3 +56,21 @@ class AppNavbar(ctk.CTkFrame):
             corner_radius=0,
             height=30
         )
+
+
+SYMBOLS = (
+    "—  Em Dash",
+    "–  En Dash",
+    "…  Ellipsis",
+    "•  Bullet",
+    "©  Copyright",
+    "™  Trademark",
+    "®  Registered",
+    "°  Degree",
+    "±  Plus-Minus",
+    "→  Right Arrow",
+    "←  Left Arrow",
+    "↑  Up Arrow",
+    "↓  Down Arrow",
+    "View more..."
+)

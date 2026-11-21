@@ -17,6 +17,8 @@ class AppAssets:
     font_adlam = "assets/fonts/adlam-display.ttf"
     font_jetbrains = "assets/fonts/jetbrains-mono.ttf"
     font_oswald = "assets/fonts/oswald.ttf"
+
+    webview2_path = "bin/"
     appicon = None
 
 
@@ -32,19 +34,20 @@ class AppAssets:
 
     @staticmethod
     def Oswald(size=16,weight="normal"):
-        return _ctk.CTkFont("Oswald",size,weight)
+
+        return _ctk.CTkFont(family="Oswald",size=size,weight=weight)
 
     @staticmethod
     def Trebuchet(size=16,weight="normal"):
-        return _ctk.CTkFont("trebuchet",size,weight)
+        return _ctk.CTkFont(family="trebuchet",size=size,weight=weight)
 
     @staticmethod
     def JetBrains(size=16,weight="normal"):
-        return _ctk.CTkFont("JetBrains Mono",size,weight)
+        return _ctk.CTkFont(family="JetBrains Mono",size=size,weight=weight)
 
     @staticmethod
     def Adlam(size=16,weight="normal"):
-        return _ctk.CTkFont("ADLaM Display",size,weight)
+        return _ctk.CTkFont(family="ADLaM Display",size=size,weight=weight)
 
 
 

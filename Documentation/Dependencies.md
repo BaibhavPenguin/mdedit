@@ -2,15 +2,8 @@
 Dependencies as of 16th November 2026.  
 - `Python 3.14.0`
 - `Pyinstaller`
-- `Pillow` 
 - `WeasyPrint`
-- `customTkinter`
-- `CTkCodeBox` &mdash; *Significantly Modified*
-- `CTkMessageBox`
-- `CTkListBox`
-- `Markdown`
-- `tklinenums`
-- `tkinterweb`
+
 
 
 ---
@@ -22,4 +15,17 @@ Dependencies as of 16th November 2026.
 - `CTkMenuBar` removed from dependency tree, implemented a custom menubar widget.
 - `pywinstyles` removed from dependency tree, it was unused anyways.
 
-- Dropped `pygments` and `CTkToolTip`
+
+-  Dropped `pygments` and `CTkToolTip`
+-  Dropped `tkinterweb` because it was unusable
+-  Dropped `customTkinter`
+-  Dropped `CTkCodeBox` &mdash; 
+-  Dropped `CTkMessageBox`
+-  Dropped `CTkListBox`
+-  Dropped `Markdown`
+-  Dropped `tklinenums`
+-  Dropped `tkwebview2`
+-  Dropped `Pillow` 
+
+
+- Added `PySide6`
